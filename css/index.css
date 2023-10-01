@@ -214,7 +214,7 @@ html
 {
     cursor :pointer;
 }
-.cart-text
+.cart-lable
 {
     position: absolute;
     top:4px;
@@ -336,7 +336,7 @@ html
         display: flex;
         flex-direction: column;
     }
-    .cart-text
+    .cart-lable
     {
         right: 20px;
         top: 15px;
