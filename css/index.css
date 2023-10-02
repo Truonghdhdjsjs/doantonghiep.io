@@ -11,18 +11,22 @@ html
 {
     font-size: 1rem;
     line-height: 24px;
-    background-color: #f5f5fa;
+    /* background-color: #f5f5fa; */
 }
 .grid
 {
     max-width: 100%;
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
 }
 #header
 {
     background-color: #fff; 
-    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.02s);
+    box-shadow: 0 1px 12px 1px rgba(0, 0, 0, 0.02s);
+    padding-right: 14px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
 }
 .nav-header
 {
@@ -342,4 +346,16 @@ html
         top: 15px;
     }
 
+}
+.wappaper
+{
+
+    background-color: #e3e3e3;
+}
+#product
+{
+    padding-left: 12px;
+    padding-top: 112px;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
