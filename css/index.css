@@ -16,7 +16,7 @@ html
 .grid
 {
     max-width: 100%;
-    width: 1300px;
+    width: 1500px;
     margin: 0 auto;
 }
 #header
@@ -366,12 +366,14 @@ html
     border: 1px solid transparent;
     border-radius: 6px;
     background-color: #fff;
+    position: static;
 }
+
 .Categories-content-header
 {
-    padding: 4px 30px;
+    padding: 4px 0 4px 30px;
 }
-.Categories-content-header-text
+.Categories-content-header-text 
 {
     font-weight: bold;
     line-height: 24px;
@@ -403,6 +405,10 @@ html
     align-items: center;
     justify-content: flex-start;
 }
+.Categories-content-nav-text-item-flex-link
+{
+    text-decoration: none;
+}
 .Categories-content-nav-text-item-flex-img
 {
     display: block !important ;
@@ -418,9 +424,10 @@ html
     white-space: none;
     line-height: 24px;
     transition: all 0.3s ease-in-out;
+    color: #000;
 }
 .Categories-content-nav-text-item-text:hover
 {
     cursor: pointer;
-    color: #fff;
+    color: #a39595;
 }
